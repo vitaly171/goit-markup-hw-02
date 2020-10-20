@@ -43,6 +43,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -81,4 +82,8 @@ address {
 }
 .dark-bg {
   background-color: var(--gray-bg);
+}
+
+.list {
+  list-style: none;
 }
