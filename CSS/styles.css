@@ -36,6 +36,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   color: var(--title-cl);
+  text-transform: uppercase;
 }
 
 .page-title {
@@ -58,6 +59,7 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-cl);
 }
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
@@ -86,4 +88,62 @@ address {
 
 .list {
   list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #212121;
+}
+
+.logo-portfolio {
+  color: #ffffff;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--title-cl);
+}
+
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.all-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-cl);
+}
+.all-title-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-cl);
+}
+
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-cl);
+  background-color: #f5f4fa;
+}
+
+.btn-color {
+  color: #ffffff;
 }
