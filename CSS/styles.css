@@ -12,6 +12,7 @@ body {
   --title-cl: #212121;
   --white: #ffffff;
   --gray-bg: #2f303a;
+  --rgba: rgba(255, 255, 255, 0.6);
 }
 
 .link {
@@ -88,7 +89,6 @@ address {
 
 .list {
   list-style: none;
-  color: var(--white);
 }
 
 .logo {
@@ -155,4 +155,8 @@ address {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+}
+
+.mail-tele-address {
+  color: var(--rgba);
 }
